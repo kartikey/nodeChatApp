@@ -1,6 +1,6 @@
 var express  = require('express');
 var app      = express();
-var port = 9000;
+var port = process.env.PORT || 9000;
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var _ = require('lodash');
