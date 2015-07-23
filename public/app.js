@@ -37,7 +37,8 @@ chatapp.controller('chatController', function($scope){
     });
 
     socket.on('user_disconnected', function (obj) {
-    	$scope.userlist = _.remove($scope.userlist, function (n){
+    	console.log("user dced");
+    	_.remove($scope.userlist, function (n){
        		return n['id'] == obj.id;
        	});
 
