@@ -1,0 +1,13 @@
+{
+  "name": "Node_Chat_App",
+  "author": "Kartikey",
+  "version": "0.0.1",
+  "description": "A simple Chat App.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "engines" : {
+      "node" : "*"
+  }
+}
